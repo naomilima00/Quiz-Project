@@ -1,9 +1,9 @@
-body{
+body {
   background-color: #FCF4EF;
   height: 100vh;
 }
 
-header{
+header {
   height: 10vh;
 
   display: flex;
@@ -17,7 +17,7 @@ header{
   --arrow-size: 4vh;
 }
 
-.arrow{
+.arrow {
   width: 0;
   height: 0;
 
@@ -25,19 +25,16 @@ header{
 
   border-top: var(--arrow-size) solid transparent;
   border-bottom: var(--arrow-size) solid transparent;
-
 }
 
-.arrow-right{
+.arrow-right {
   margin-left: 3em;
 
   border-left: var(--arrow-size) solid #4C5464;
 }
 
-.arrow-left{
+.arrow-left {
   margin-right: 3em;
 
-  border-right: var(--arrow-size) solid #4C5464; 
+  border-right: var(--arrow-size) solid #4C5464;
 }
-
-
