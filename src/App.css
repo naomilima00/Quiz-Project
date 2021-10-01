@@ -1,0 +1,43 @@
+body{
+  background-color: #FCF4EF;
+  height: 100vh;
+}
+
+header{
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FC7061;
+  color: white;
+  font-size: 2.5em;
+
+  --arrow-size: 4vh;
+}
+
+.arrow{
+  width: 0;
+  height: 0;
+
+  cursor: pointer;
+
+  border-top: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid transparent;
+
+}
+
+.arrow-right{
+  margin-left: 3em;
+
+  border-left: var(--arrow-size) solid #4C5464;
+}
+
+.arrow-left{
+  margin-right: 3em;
+
+  border-right: var(--arrow-size) solid #4C5464; 
+}
+
+
