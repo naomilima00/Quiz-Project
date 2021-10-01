@@ -17,27 +17,35 @@ function QuestionBox(props) {
     return <div class="qb-surround">
         <section class="qb-section">
             <h1 class="qb-question-title">{props.question}</h1>
-            <section class="qb-question-choices">
-                <Answer 
-                    onClick={onClick(1)}
-                    clicked={clicked}
-                    correct={props.correct}
-                    text={props.answers[0]} />
-                <Answer 
-                    onClick={onClick(2)}
-                    clicked={clicked}
-                    correct={props.correct}
-                    text={props.answers[1]} />
-                <Answer 
-                    onClick={onClick(3)}
-                    clicked={clicked}
-                    correct={props.correct}
-                    text={props.answers[2]} />
-                <Answer 
-                    onClick={onClick(4)}
-                    clicked={clicked}
-                    correct={props.correct}
-                    text={props.answers[3]} />
+                <section class="qb-question-choices">
+                    <section class="qb-question-choices-style">
+                    <Answer 
+                        onClick={onClick(1)}
+                        clicked={clicked}
+                        correct={props.correct}
+                        text={props.answers[0]} />
+                    </section>
+                    <section class="qb-question-choices-style">
+                    <Answer 
+                        onClick={onClick(2)}
+                        clicked={clicked}
+                        correct={props.correct}
+                        text={props.answers[1]} />
+                    </section>
+                    <section class="qb-question-choices-style">
+                    <Answer 
+                        onClick={onClick(3)}
+                        clicked={clicked}
+                        correct={props.correct}
+                        text={props.answers[2]} />
+                    </section>
+                    <section class="qb-question-choices-style">
+                    <Answer 
+                        onClick={onClick(4)}
+                        clicked={clicked}
+                        correct={props.correct}
+                        text={props.answers[3]} />
+                    </section>
             </section>
         </section>
         {/* <button class="qb-submit">Submit</button> */}

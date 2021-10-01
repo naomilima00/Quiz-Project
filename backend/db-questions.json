@@ -10,16 +10,16 @@
             ]
         },
         {
-            "question": "What is Reactttt?",
+            "question": "What framework did we use?",
             "answers": [
-                "A JS Frameworkkkk",
-                "A fake thingggg",
-                "A reflex responseeeee",
-                "I have no ideaaaaa"
+                "React",
+                "Angular",
+                "Panda",
+                "I have no idea"
             ]
         },
         {
-            "question": "What is the presenters name",
+            "question": "What is the presenters name?",
             "answers": [
                 "Zackary",
                 "Carlos",
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "question": "What program is this",
+            "question": "What program is this?",
             "answers": [
                 "Code",
                 "Make",

@@ -9,12 +9,11 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: #FC7061;
+  background-color: #17BEBB;
   color: white;
   font-size: 2.5em;
 
-  --arrow-size: 4vh;
+  --arrow-size: 3vh;
 }
 
 .arrow {
@@ -30,11 +29,11 @@ header {
 .arrow-right {
   margin-left: 3em;
 
-  border-left: var(--arrow-size) solid #4C5464;
+  border-left: var(--arrow-size) solid #ffffff;
 }
 
 .arrow-left {
   margin-right: 3em;
 
-  border-right: var(--arrow-size) solid #4C5464;
+  border-right: var(--arrow-size) solid #ffffff;
 }
